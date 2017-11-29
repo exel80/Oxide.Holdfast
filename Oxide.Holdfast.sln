@@ -1,0 +1,18 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 15.0
+Project("{F54E86AB-03EE-497A-8788-24A933A40F5A}") = "Oxide.Holdfast", "src\Oxide.Holdfast.csproj", "{C098227C-B107-41EE-A4D0-AFFFDDDE0971}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C098227C-B107-41EE-A4D0-AFFFDDDE0971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C098227C-B107-41EE-A4D0-AFFFDDDE0971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C098227C-B107-41EE-A4D0-AFFFDDDE0971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C098227C-B107-41EE-A4D0-AFFFDDDE0971}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,184 @@
+{
+  "Name": "Holdfast: Nations at War",
+  "TargetDirectory": "E:\\Servers\\Holdfast\\Holdfast NaW_Data\\Managed",
+  "Manifests": [
+    {
+      "AssemblyName": "Assembly-CSharp.dll",
+      "Hooks": [
+        {
+          "Type": "InitOxide",
+          "Hook": {
+            "InjectionIndex": 0,
+            "HookTypeName": "Initialize Oxide",
+            "Name": "InitOxide [internal]",
+            "HookName": "InitOxide",
+            "AssemblyName": "Assembly-CSharp.dll",
+            "TypeName": "HoldfastGame.StartScreenMenu",
+            "Flagged": false,
+            "Signature": {
+              "Exposure": 0,
+              "Name": "Start",
+              "ReturnType": "System.Void",
+              "Parameters": []
+            },
+            "MSILHash": "EkA9+5idVn/aVWLwYnAiTOBKQIdo3g7zzKTi9t0sQ/w=",
+            "BaseHookName": null,
+            "HookCategory": "Server"
+          }
+        },
+        {
+          "Type": "Simple",
+          "Hook": {
+            "InjectionIndex": 1,
+            "ReturnBehavior": 0,
+            "ArgumentBehavior": 0,
+            "ArgumentString": null,
+            "HookTypeName": "Simple",
+            "Name": "InitLogging [internal]",
+            "HookName": "InitLogging",
+            "AssemblyName": "Assembly-CSharp.dll",
+            "TypeName": "HoldfastGame.StartScreenMenu",
+            "Flagged": false,
+            "Signature": {
+              "Exposure": 0,
+              "Name": "Start",
+              "ReturnType": "System.Void",
+              "Parameters": []
+            },
+            "MSILHash": "EkA9+5idVn/aVWLwYnAiTOBKQIdo3g7zzKTi9t0sQ/w=",
+            "BaseHookName": "InitOxide [internal]",
+            "HookCategory": "Server"
+          }
+        },
+        {
+          "Type": "Simple",
+          "Hook": {
+            "InjectionIndex": 0,
+            "ReturnBehavior": 0,
+            "ArgumentBehavior": 0,
+            "ArgumentString": null,
+            "HookTypeName": "Simple",
+            "Name": "uLink_OnPlayerApproval",
+            "HookName": "OnuLink_OnPlayerApproval",
+            "AssemblyName": "Assembly-CSharp.dll",
+            "TypeName": "HoldfastGame.ServerConnectionManager",
+            "Flagged": true,
+            "Signature": {
+              "Exposure": 0,
+              "Name": "uLink_OnPlayerApproval",
+              "ReturnType": "System.Void",
+              "Parameters": [
+                "uLink.NetworkPlayerApproval"
+              ]
+            },
+            "MSILHash": "9EQmnTBlKk6XV5BH3QxUl24Q7bwOj28ADSSVUW5GS8w=",
+            "BaseHookName": null,
+            "HookCategory": null
+          }
+        },
+        {
+          "Type": "Simple",
+          "Hook": {
+            "InjectionIndex": 0,
+            "ReturnBehavior": 0,
+            "ArgumentBehavior": 0,
+            "ArgumentString": null,
+            "HookTypeName": "Simple",
+            "Name": "uLink_OnPlayerConnected",
+            "HookName": "OnuLink_OnPlayerConnected",
+            "AssemblyName": "Assembly-CSharp.dll",
+            "TypeName": "HoldfastGame.ServerConnectionManager",
+            "Flagged": true,
+            "Signature": {
+              "Exposure": 0,
+              "Name": "uLink_OnPlayerConnected",
+              "ReturnType": "System.Void",
+              "Parameters": [
+                "uLink.NetworkPlayer"
+              ]
+            },
+            "MSILHash": "7NZhTvwiSsbb5UnE4MoeUaTx2aWDKmaRF25VmYJXusM=",
+            "BaseHookName": null,
+            "HookCategory": null
+          }
+        },
+        {
+          "Type": "Simple",
+          "Hook": {
+            "InjectionIndex": 0,
+            "ReturnBehavior": 0,
+            "ArgumentBehavior": 0,
+            "ArgumentString": null,
+            "HookTypeName": "Simple",
+            "Name": "uLink_OnPlayerDisconnected",
+            "HookName": "OnuLink_OnPlayerDisconnected",
+            "AssemblyName": "Assembly-CSharp.dll",
+            "TypeName": "HoldfastGame.ServerConnectionManager",
+            "Flagged": true,
+            "Signature": {
+              "Exposure": 0,
+              "Name": "uLink_OnPlayerDisconnected",
+              "ReturnType": "System.Void",
+              "Parameters": [
+                "uLink.NetworkPlayer"
+              ]
+            },
+            "MSILHash": "dcBTGUomsvLCKTHMkYXtyOMgMEeJ8ohTg2tNV3CW+GQ=",
+            "BaseHookName": null,
+            "HookCategory": null
+          }
+        },
+        {
+          "Type": "Simple",
+          "Hook": {
+            "InjectionIndex": 0,
+            "ReturnBehavior": 0,
+            "ArgumentBehavior": 0,
+            "ArgumentString": null,
+            "HookTypeName": "Simple",
+            "Name": "OnServerShutdown",
+            "HookName": "OnServerShutdown",
+            "AssemblyName": "Assembly-CSharp.dll",
+            "TypeName": "HoldfastGame.HomelessMethods",
+            "Flagged": false,
+            "Signature": {
+              "Exposure": 2,
+              "Name": "ApplicationQuit",
+              "ReturnType": "System.Void",
+              "Parameters": []
+            },
+            "MSILHash": "xHh8J91wi7G8hRT44af/mQqipszjjKj7fdvB8hRd748=",
+            "BaseHookName": null,
+            "HookCategory": "Server"
+          }
+        },
+        {
+          "Type": "Simple",
+          "Hook": {
+            "InjectionIndex": 10,
+            "ReturnBehavior": 0,
+            "ArgumentBehavior": 0,
+            "ArgumentString": null,
+            "HookTypeName": "Simple",
+            "Name": "OnServerInitialized",
+            "HookName": "OnServerInitialized",
+            "AssemblyName": "Assembly-CSharp.dll",
+            "TypeName": "HoldfastGame.ServerGameManager",
+            "Flagged": false,
+            "Signature": {
+              "Exposure": 0,
+              "Name": "InitializeFirstRound",
+              "ReturnType": "System.Void",
+              "Parameters": []
+            },
+            "MSILHash": "pLQCinlXhZXIOvoSGkH96BYV4Hc7wFDIsDVT7RGQU5M=",
+            "BaseHookName": null,
+            "HookCategory": "Server"
+          }
+        }
+      ],
+      "Modifiers": [],
+      "Fields": []
+    }
+  ]
+}
